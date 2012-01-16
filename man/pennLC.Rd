@@ -17,7 +17,7 @@ List of 3 items:
 }
 %\details{}
 \seealso{ 
-	\code{\link{scotland}}
+	\code{\link{scotland}}, \code{\link{NYleukemia}}
 }
 \source{
 Population data was obtained from the 2000 decennial census, lung cancer 
