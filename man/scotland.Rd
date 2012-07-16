@@ -24,8 +24,10 @@ Kemp I., Boyle P., Smans M. and Muir C. (1985) Atlas of cancer in Scotland, 1975
 Clayton D. and Kaldor J. (1987) Empirical Bayes estimates of age-standardized relative risks for use in disease mapping.  \emph{Biometrics}, \bold{43}, 671--681
 }
 \seealso{
-\code{\link{mapvariable}}, \code{\link{polygon2spatial.polygon}}, \code{\link{pennLC}}
-}\examples{
+\code{\link{mapvariable}}, \code{\link{polygon2spatial.polygon}}, \code{\link{pennLC}}, 
+\code{\link{NYleukemia}}
+}
+\examples{
 data(scotland)
 data <- scotland$data
 scotland.map <- scotland$spatial.polygon

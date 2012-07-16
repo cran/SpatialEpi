@@ -4,12 +4,12 @@
 	Methods for spatial epidemiology
 }
 \description{
-	This package contains methods for cluster detection and disease mapping, as well as plotting methods using the 
-	\link[sp]{sp} package.
+	This package contains methods for cluster detection and disease mapping, as well as plotting methods using the \link[sp]{sp} package.
 }
 
 \author{
 	\tabular{ll}{
+		Cici Chen \tab \email{cicichen@u.washington.edu}\cr
 		Albert Y. Kim \tab \email{albert@stat.washington.edu}\cr
 		Michelle E. Ross \tab \email{micher3@u.washington.edu}\cr
 		Jon Wakefield \tab \email{jonno@stat.washington.edu}
@@ -21,14 +21,12 @@
 Package: \tab SpatialEpi\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2009-01-20\cr
+Date: \tab 2012-01-16\cr
 License: \tab GPL\cr
 LazyLoad: \tab yes\cr
 }
 
 }
-
-%\references{}
 \keyword{ package }
 \seealso{\code{\link[sp]{sp}}}
 %\examples{

@@ -53,7 +53,7 @@ The \code{most.likely.cluster} and \code{secondary.clusters} list elements are t
   Kulldorff M. and Nagarwalla N. (1995) Spatial disease clusters: Detection and Inference.
 \emph{Statistics in Medicine}, \bold{14}, 799--810.  %\url{http://www.satscan.org/papers/k-sm1995.pdf}
 }
-\author{Albert Y. Kim }
+\author{Albert Y. Kim}
 \seealso{\code{\link{pennLC}}, \code{\link{expected}}}
 \examples{
 ## Load Pennsylvania Lung Cancer Data
