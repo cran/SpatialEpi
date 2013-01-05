@@ -1,5 +1,5 @@
-2561a30a5eab0a2d3021a9ee96ced97b *DESCRIPTION
-23c36fb4649765fa1dac7372a139f408 *NAMESPACE
+042c333d3e7e1964829f52d9e7ce3c9a *DESCRIPTION
+eadaedc323388480c8ba4760f5761eb7 *NAMESPACE
 af73e2079a131f23149d2f488666c500 *R/GammaPriorCh.R
 78ebff1b1953dcb460a27bb1b31d5ed4 *R/LogNormalPriorCh.R
 fc0bbb2625d594cee457c06877de1e3e *R/MCMC.R
@@ -21,7 +21,6 @@ b27d4f9b866caddcd2c0a29fecf13ac4 *R/plotmap.R
 f12b43f5876f30902d2828d63524493e *R/process.MCMC.chain.R
 b9dc851c4c3d98fc9cb7be352199cc31 *R/ranking.R
 99b4e716b9a255e34ba6459ca01cf7e1 *R/zones.R
-5862ab1257c185bc5385faefc1b360ee *R/zzz.R
 4b5c764a3bcebbf1be5bc980776b1b17 *data/NYleukemia.rda
 3d50f64f053a822ffa88086e7a225874 *data/pennLC.rda
 9b2771f1f98e5c6ea485519d676285d4 *data/scotland.rda
@@ -30,7 +29,7 @@ e3fff547a6ca827690035adc24285cd3 *man/LogNormalPriorCh.Rd
 903c71b59cfbb4b63f4041b0c08ac66a *man/MCMC.Rd
 f00a36311f238d5a056c1b1a39d302fa *man/NYleukemia.Rd
 3a9ffab74ef22281dbff5dd736f4ec04 *man/SpatialEpi-package.Rd
-5e8ce28d511f95d1d22671dc00526241 *man/bayes.cluster.Rd
+2a232d78c0599540d0f871508f7e9d9a *man/bayes.cluster.Rd
 2f103d7da721bfb2eb0de93ef80d72c7 *man/besag.newell.Rd
 8bf63d595a557895b85d26ee50c1775d *man/circle.Rd
 91b8405ec9a2b336fa21032f1d30a8f4 *man/create.geo.objects.Rd
@@ -50,6 +49,6 @@ bb3aa8b8d7f955e7eaed40e61772521d *man/process.MCMC.chain.Rd
 6be2eaeb31fbace3102d0ad2edac6e64 *man/ranking.Rd
 9822b123d32e62682064d3280a8140ac *man/scotland.Rd
 a8ef78c822d53cbcf00828c5f4bf00e5 *man/zones.Rd
-6b4f2d060e62e350062bfd6197367182 *src/SpatialEpi.c
+ec826fed7fb3ee33b67118fd8afe3026 *src/SpatialEpi.c
 8644c1c6c32401dac12ed61e2e65902c *src/SpatialEpi.h
 8c2c8f1ab55a3b2ae368905b889d2a01 *src/cluster_detection.h

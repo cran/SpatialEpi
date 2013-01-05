@@ -1,9 +1,9 @@
 Package: SpatialEpi
 Type: Package
 Title: Performs various spatial epidemiological analyses
-Version: 1.0
+Version: 1.1
 Date: 2012-01-16
-Depends: MASS, sp, maps, maptools, shapefiles, spdep, gtools, gpclib,
+Depends: MASS, sp, maps, maptools, shapefiles, spdep, gtools, rgeos,
         foreign, lattice, boot, Matrix, nlme
 Author: Cici Chen <cicichen@u.washington.edu>, Albert Y. Kim
         <albert@stat.washington.edu>, Michelle Ross
@@ -13,7 +13,7 @@ Author: Cici Chen <cicichen@u.washington.edu>, Albert Y. Kim
 Maintainer: Albert Y. Kim <albert@stat.washington.edu>
 Description: Cluster Detection, Disease Mapping
 License: GPL-2
-LazyLoad: yes
-Packaged: 2012-07-16 04:37:24 UTC; albertkim
+LazyLoad: true
+Packaged: 2013-01-04 23:14:49 UTC; albertkim
 Repository: CRAN
-Date/Publication: 2012-07-16 06:08:41
+Date/Publication: 2013-01-05 08:58:47

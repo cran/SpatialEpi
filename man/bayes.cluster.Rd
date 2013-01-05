@@ -67,16 +67,16 @@ k <- 0.00005
 shape <- c(2976.3, 2.31); rate <- c(2977.3, 1.31)
 J <- 7
 pi0 <- 0.95
-n.sim.imp <- 0.5*10^3
+n.sim.imp <- 0.5*10^4
 n.sim.prior <- 0.5*10^4
-n.sim.post <- 0.5*10^4
+n.sim.post <- 0.5*10^5
 
-## Compute output
-output <- bayes.cluster(E, cases, population, centroids, map, max.prop, k, 
-	shape, rate, J, pi0, n.sim.imp, n.sim.prior, n.sim.post)
-plotmap(output$prior.map$high.area, map)
-plotmap(output$post.map$high.area, map)
-plotmap(output$post.map$RR.est.area, map, log=TRUE)
-barplot(output$pj.y, names.arg=0:J, xlab="j", ylab="P(j|y)")                   
+## (Uncomment first) Compute output
+# output <- bayes.cluster(E, cases, population, centroids, map, max.prop, k, 
+# 	shape, rate, J, pi0, n.sim.imp, n.sim.prior, n.sim.post)
+# plotmap(output$prior.map$high.area, map)
+# plotmap(output$post.map$high.area, map)
+# plotmap(output$post.map$RR.est.area, map, log=TRUE)
+# barplot(output$pj.y, names.arg=0:J, xlab="j", ylab="P(j|y)")                   
 }
 \keyword{file}
