@@ -5,7 +5,8 @@
 Implementation of the Bayesian Cluster detection model of Wakefield and Kim for a study region with \code{n} areas. The prior and posterior probabilities of each of the \code{n.zones} single zones being a cluster/anti-cluster are estimated using Markov chain Monte Carlo.
 }
 \usage{
-bayes.cluster(E, cases, population, centroids, map, max.prop, k, shape, rate, J, pi0, n.sim.imp, n.sim.prior, n.sim.post)
+bayes.cluster(E, cases, population, centroids, map, max.prop, k, shape, rate, J, 
+pi0, n.sim.imp, n.sim.prior, n.sim.post)
 }
 \arguments{
   \item{E}{vector of length \code{n} of the expected number of disease in each area}

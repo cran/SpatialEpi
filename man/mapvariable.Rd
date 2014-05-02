@@ -8,7 +8,8 @@ Plot Levels of a Variable in a Colour-Coded Map
 Plot levels of a variable in a colour-coded map along with a legend.
 }
 \usage{
-mapvariable(y, spatial.polygon, ncut=1000, nlevels=10, lower=NULL, upper=NULL, main=NULL, xlab=NULL, ylab=NULL)
+mapvariable(y, spatial.polygon, ncut=1000, nlevels=10, lower=NULL, upper=NULL, 
+main=NULL, xlab=NULL, ylab=NULL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

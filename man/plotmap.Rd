@@ -3,7 +3,8 @@
 \title{Plot Levels of a Variable in a Colour-Coded Map}
 \description{Plot levels of a variable in a colour-coded map.}
 \usage{
-plotmap(values, map, log = FALSE, nclr = 7, include.legend = TRUE, lwd = 0.5, round = 3, brks = NULL, legend = NULL, location = "topright", rev = FALSE)
+plotmap(values, map, log = FALSE, nclr = 7, include.legend = TRUE, lwd = 0.5, 
+round = 3, brks = NULL, legend = NULL, location = "topright", rev = FALSE)
 }
 \arguments{
   \item{values}{variable to plot}

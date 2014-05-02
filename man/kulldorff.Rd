@@ -7,7 +7,8 @@
 Kulldorff spatial cluster detection method for a study region with \code{n} areas.  The method constructs \emph{zones} by consecutively aggregating nearest-neighboring areas until a proportion of the total study population is included.  Given the observed number of cases, the likelihood of each zone is computed using either binomial or poisson likelihoods. The procedure reports the zone that is the \emph{most likely cluster} and generates significance measures via Monte Carlo sampling.  Further, \emph{secondary clusters}, whose Monte Carlo p-values are below the \eqn{\alpha}-threshold, are reported as well.  
 }
 \usage{
-kulldorff(geo, cases, population, expected.cases=NULL, pop.upper.bound, n.simulations, alpha.level, plot=TRUE)
+kulldorff(geo, cases, population, expected.cases=NULL, pop.upper.bound, 
+n.simulations, alpha.level, plot=TRUE)
 }
 \arguments{
   \item{geo}{an \code{n x 2} table of the (x,y)-coordinates of the area centroids}
@@ -79,7 +80,8 @@ alpha.level <- 0.05
 plot <- TRUE
 
 ## Kulldorff using Binomial likelihoods
-binomial <- kulldorff(geo, cases, population, NULL, pop.upper.bound, n.simulations, alpha.level, plot)
+binomial <- kulldorff(geo, cases, population, NULL, pop.upper.bound, n.simulations, 
+  alpha.level, plot)
 cluster <- binomial$most.likely.cluster$location.IDs.included
 
 ## plot
@@ -88,7 +90,8 @@ plot(pennLC$spatial.polygon[cluster],add=TRUE,col="red")
 title("Most Likely Cluster")
 
 ## Kulldorff using Poisson likelihoods
-poisson <- kulldorff(geo, cases, population, expected.cases, pop.upper.bound, n.simulations, alpha.level, plot)
+poisson <- kulldorff(geo, cases, population, expected.cases, pop.upper.bound, 
+  n.simulations, alpha.level, plot)
 cluster <- poisson$most.likely.cluster$location.IDs.included
 
 ## plot
