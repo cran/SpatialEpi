@@ -1,8 +1,6 @@
 \name{kulldorff}
 \alias{kulldorff}
-\title{
-	Kulldorff Cluster Detection Method
-}
+\title{Kulldorff Cluster Detection Method}
 \description{
 Kulldorff spatial cluster detection method for a study region with \code{n} areas.  The method constructs \emph{zones} by consecutively aggregating nearest-neighboring areas until a proportion of the total study population is included.  Given the observed number of cases, the likelihood of each zone is computed using either binomial or poisson likelihoods. The procedure reports the zone that is the \emph{most likely cluster} and generates significance measures via Monte Carlo sampling.  Further, \emph{secondary clusters}, whose Monte Carlo p-values are below the \eqn{\alpha}-threshold, are reported as well.  
 }
@@ -17,7 +15,7 @@ n.simulations, alpha.level, plot=TRUE)
   \item{expected.cases}{expected numbers of disease for all \code{n} areas}
   \item{pop.upper.bound}{the upper bound on the proportion of the total population each zone can include}
   \item{n.simulations}{number of Monte Carlo samples used for significance measures}
-  \item{alpha.level}{\eqn{\alpha}-level threshold used to declare significance}
+  \item{alpha.level}{alpha-level threshold used to declare significance}
   \item{plot}{flag for whether to plot histogram of Monte Carlo samples of the log-likelihood of the most likely cluster}
 }
 \details{
@@ -45,14 +43,10 @@ The \code{most.likely.cluster} and \code{secondary.clusters} list elements are t
 }
 }
 \references{ 
- SatScan:  Software for the spatial, temporal, and space-time scan statistics \url{http://www.satscan.org/}
-
-  Kulldorff, M. (1997)
- A spatial scan statistic.
-  \emph{Communications in Statistics: Theory and Methods}, \bold{26}, 1481--1496. %\url{http://www.satscan.org/papers/k-cstm1997.pdf}
-
-  Kulldorff M. and Nagarwalla N. (1995) Spatial disease clusters: Detection and Inference.
-\emph{Statistics in Medicine}, \bold{14}, 799--810.  %\url{http://www.satscan.org/papers/k-sm1995.pdf}
+ SatScan:  Software for the spatial, temporal, and space-time scan statistics \url{http://www.satscan.org/} Kulldorff, M. (1997) A spatial scan statistic. \emph{Communications in Statistics: Theory and Methods}, \bold{26}, 1481--1496.
+ 
+ Kulldorff M. and Nagarwalla N. (1995) Spatial disease clusters: Detection and Inference.
+\emph{Statistics in Medicine}, \bold{14}, 799--810.
 }
 \author{Albert Y. Kim}
 \seealso{\code{\link{pennLC}}, \code{\link{expected}}}

@@ -1,17 +1,16 @@
 \name{normalize}
 \alias{normalize}
-\title{Normalize a vector}
-\description{Function to Normalize a vector, possibly over a restricted set of indices}
-\usage{normalize(p, include.indices = NA)}
+\title{Normalize vector to sum to 1.}
+\description{Divide each element in the vector by the sum of the vector elements.  }
+\usage{normalize(x)}
 \arguments{
-  \item{p}{vector to normalize}
-  \item{include.indices}{indices to normalize over. Returns 0 for indices not included}
+  \item{x}{Vector to be normalized}
 }
-\value{
-\item{p.prime}{normalized vector}
-}
+\value{Normalized vector}
+\author{Albert Y. Kim}
 \examples{
-x <- c(1:5)
-normalize(x, c(1,1,1,0,0))
+x <- rep(1, 10)
+x <- normalize(x)
+x
 }
 \keyword{file}
