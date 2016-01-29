@@ -1,5 +1,5 @@
 create_geo_objects <-
-function(max.prop, population, centroids, sp.obj, area=NULL){
+function(max.prop, population, centroids, sp.obj){
 
 # Number of areas
 n <- nrow(centroids)
@@ -28,17 +28,6 @@ for(i in 1:n) {
     counter <- counter + 1  
   } 
 }
-
-# If not provided, compute geographic surface area for each single zone.  
-if(is.null(area)){
-  area <- rep(0,n)
-  sp.obj.grid <- latlong2grid(sp.obj)
-  for(i in 1:n)
-    area[i] <- sp.obj.grid@polygons[[i]]@area
-  rm(sp.obj.grid)
-}
-areaz <- sapply(cluster.list,function(x){sum(area[x])})
-
 
 #-----------------------------------------------------------------------------
 # Generate overlap object which tracks the overlap between single zones
@@ -87,7 +76,6 @@ presence <- presence_temp
 overlap <- list(presence=presence, cluster.list=cluster.list)
 return(list(
   overlap=overlap, 
-  cluster.coords=cluster.coords, 
-  areaz=areaz)
+  cluster.coords=cluster.coords)
 )
 }

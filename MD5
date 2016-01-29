@@ -1,5 +1,5 @@
-86ba72cf025fcedf9f2cfac92552e023 *DESCRIPTION
-b9e624d295f94d57cd09a06394c83bdc *NAMESPACE
+89a176d5ac52178f917ea8ed5aef04ff *DESCRIPTION
+8d681890e37876c8b4b67a9cde2e8fb7 *NAMESPACE
 ac618520988ed01cedc34ebd32efc009 *R/EBpostdens.R
 9b3505c17863ca797c1dec6d0d4e75eb *R/EBpostthresh.R
 f952783ee46b537357eb06bc79580b03 *R/GammaPriorCh.R
@@ -8,7 +8,7 @@ f952783ee46b537357eb06bc79580b03 *R/GammaPriorCh.R
 738be0f662c80474d5faba819e864580 *R/bayes_cluster.R
 4280e66b1efda202aeb4a78def13d2f5 *R/besag_newell.R
 383a0202039b49b6574725e3e443c373 *R/circle.R
-cafdd1ea5c37b831c9d1b03d5aace71c *R/create_geo_objects.R
+ce5bf233029deb39a91cb7859d8f814b *R/create_geo_objects.R
 e6033d6b7116d9b0bb3b482e10114007 *R/eBayes.R
 637b5c8e796b776b000ae45757872ec0 *R/estimate_lambda.R
 6c70356973edcdc5c01af9592d7da5a3 *R/expected.R
@@ -29,11 +29,11 @@ f0ce31ab7ce462130a4f4c3a87447150 *man/EBpostthresh.Rd
 7c10acde7cd680a0e4fa15a969a74293 *man/GammaPriorCh.Rd
 e3fff547a6ca827690035adc24285cd3 *man/LogNormalPriorCh.Rd
 ee7fb709ffee452bb1b451033a7e0c39 *man/MCMC_simulation.Rd
-b481294f27e75910d09a7773141d9224 *man/NYleukemia.Rd
+2425351aa8353f849f80bfc3f4c668d8 *man/NYleukemia.Rd
 2204b157665f95fe8a33918c221791b1 *man/NumericVectorEquality.Rd
 41f6106d5002afb3d634329798750916 *man/ProbSampleReplace.Rd
 2725106044f9285fcd4531ce07a627f8 *man/SpatialEpi-package.Rd
-211c7aa79f757c963bc303f6a632d57f *man/bayes_cluster.Rd
+a5c5d08567bb5911f41228866361c658 *man/bayes_cluster.Rd
 bc0c9151c3e9aaddc7bf6b6bc120e012 *man/besag_newell.Rd
 c0b98695d7a1526fd6be4c89f0f28108 *man/besag_newell_internal.Rd
 3920a6b9d5e157333e1976eda5f07044 *man/binomialLogLkhd.Rd
@@ -42,7 +42,7 @@ c0b98695d7a1526fd6be4c89f0f28108 *man/besag_newell_internal.Rd
 6f5968f2c91eb62cb46c78828d391e83 *man/clean_moves_matrix.Rd
 4541dfa9042ca7bf792e75575e9188ab *man/coeff.Rd
 457deec03535809ac7de2093900974ae *man/computeAllLogLkhd.Rd
-64e8e9a94c5d9ac03d346c9c0e87595d *man/create_geo_objects.Rd
+a80844794d47a7f7f456b66eeca4be57 *man/create_geo_objects.Rd
 45759f580cac75a3a4ddfadc7e5785a0 *man/eBayes.Rd
 48c50435fd9820f685a0c468877c345a *man/estimate_lambda.Rd
 5dc4ab974b67684b7996481d49f1233c *man/expected.Rd
@@ -64,6 +64,6 @@ ed4ef5db0b38afc6b40a736130628b95 *man/plotmap.Rd
 76fd6602aeaeee25e3a5ae84b9465664 *man/return_local_moves.Rd
 04bfab32d5e6f91c5e0aae991ed6e7bf *man/scotland.Rd
 468a52c82a85d19a621195d2ecfd2d9a *man/zones.Rd
-f05c84cd7883d27183051bce659a9dbb *src/RcppExports.cpp
+14d180de6bd759ef2a3ff36ad225633f *src/RcppExports.cpp
 ef804abb56281d1c09d789025e060f1e *src/bayes_cluster.cpp
 bc1da5cfd60e51b0de5b19e14fac5aff *src/cluster_detection.cpp
