@@ -1,7 +1,7 @@
 Package: SpatialEpi
 Type: Package
 Title: Methods and Data for Spatial Epidemiology
-Version: 1.2.4
+Version: 1.2.5
 Authors@R: c(
     person("Cici", "Chen", email = "cicichen@u.washington.edu", role = "ctb"),
     person("Albert Y.", "Kim", email = "albert.ys.kim@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7824-306X")),
@@ -16,20 +16,20 @@ License: GPL-2
 LazyData: true
 URL: https://github.com/rudeboybert/SpatialEpi
 BugReports: https://github.com/rudeboybert/SpatialEpi/issues
-Imports: Rcpp, MASS, maptools, spdep, methods, grDevices, graphics,
-        stats, sf, dplyr, ggplot2
+Imports: Rcpp, MASS, maptools, spdep
 LinkingTo: Rcpp, RcppArmadillo
 NeedsCompilation: yes
 RoxygenNote: 7.1.1
-Suggests: rmarkdown, markdown, knitr, testthat (>= 3.0.0)
+Suggests: rmarkdown, markdown, knitr, testthat (>= 3.0.0), ggplot2,
+        dplyr
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 Encoding: UTF-8
-Packaged: 2021-07-27 01:00:11 UTC; akim04
+Packaged: 2021-08-01 22:08:24 UTC; akim04
 Author: Cici Chen [ctb],
   Albert Y. Kim [aut, cre] (<https://orcid.org/0000-0001-7824-306X>),
   Michelle Ross [ctb],
   Jon Wakefield [aut],
   Mikael Moise [aut] (<https://orcid.org/0000-0002-3608-1178>)
 Repository: CRAN
-Date/Publication: 2021-07-27 08:30:08 UTC
+Date/Publication: 2021-08-02 07:40:02 UTC
